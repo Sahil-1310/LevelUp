@@ -1,37 +1,40 @@
-// #include<bits/stdc++.h>
-// using namespace std;
+// import java.util.*;
+// public class TreeHouse {
+//     static Scanner sc = new Scanner(System.in);
+//         public static class Edge {
+//         int v = 0;
+//         int w = 0;
 
-// //Time complexity of selection Sort O(N^2);
-// void Selection_Sort(int arr[],int len){
-// 	for(int i = 0; i<len; i++){
-// 		int minValue = i;
-// 		for(int j = i+1; i<len; j++){
-// 			if(arr[j] < arr[minValue]){
-// 				minValue = j;
-// 			}
-// 		}
-// 		swap(arr[i], arr[minValue]);
-// 	}
+//         Edge(int v, int w) {
+//             this.v = v;
+//             this.w = w;
+//         }
+//     }
+//     static int N;
+//     @SuppressWarnings("unchecked")
+//     static ArrayList<Edge>[] graph = new ArrayList[N];
+//     static int gcd(int a, int b) {
+//         if (a == 0)
+//             return b;
+//         return gcd(b % a, a);
+//     }
+//     public static void addEdge(int u, int v) {
+
+//         graph[u].add(new Edge(v, w));
+//     }
+
+//     public static void main(String[] args) {
+//         int t = sc.nextInt();
+//         while(t-- > 0) {
+//             N = sc.nextInt();
+//             int x = sc.nextInt();
+//             graph[0].add(new Edge(1, x));
+//             while(N-- > 1) {
+//                 addEdge(sc.nextInt(), sc.nextInt());
+//             }
+//         }
+//     }
 // }
-// int main()
-// {
-// 	/* code */
-// 	int arr[10];
-// 	for(int i = 0; i<10; i++){
-// 		cin>>arr[i];
-// 	}
-	
-
-// 	//Finding the size of an array	
-// 	int len = sizeof(arr)/sizeof(arr[0]);
-// 	Selection_Sort(arr,len);
-	
-// 	cout<<" sorted array";
-// 	for(int i = 0; i<len; i++){
-// 		cout<<arr[i]<<" ";
-// 	}
-// 	return 0;
-// }	
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long int
