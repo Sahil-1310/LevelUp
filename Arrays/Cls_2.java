@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.*;
 public class Cls_2 {
 
@@ -56,7 +58,7 @@ public class Cls_2 {
             nums[s.charAt(ei)]++;
             ei++;
 
-            while (count > 2) {
+            while (count > k) {
                 if (nums[s.charAt(si)] == 1)
                     count--;
                 nums[s.charAt(si)]--;
@@ -67,6 +69,22 @@ public class Cls_2 {
         return len;
     }
 
+    //..973. K Closest Points to Origin T.c O(K+N+2log(n))
+    public int[][] kClosest(int[][] points, int k) {
+        PriorityQueue<int []> pq = new PriorityQueue<>((a, b)->{
+            return -(a[0]*a[0]+a[1]*a[1])+(b[0]*b[0]+b[1]*b[1]);
+        });
+        for(int[] nums: points) {
+            pq.add(nums);
+            if(pq.size() > k) pq.poll();
+        }
+
+        int[][] num = new int[k][k];
+        for(int i = 0; i < k; i++) {
+               num[i] = pq.poll();
+           }
+        return num;
+    }
     public static void main(String[] args) {
 
     }
