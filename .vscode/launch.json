@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch cls_2",
+            "request": "launch",
+            "mainClass": "serching_and_sorting.cls_2",
+            "projectName": "Pepcoding"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cls_2",
+            "request": "launch",
+            "mainClass": "HashMap_and_heap.Cls_2",
+            "projectName": "Pepcoding"
+        },
+        {
+            "type": "java",
             "name": "Launch Test",
             "request": "launch",
             "mainClass": "Test",
