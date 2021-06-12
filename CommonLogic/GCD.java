@@ -1,3 +1,4 @@
+package CommonLogic;
 // Java program to find GCD of two or
 // more numbers
 

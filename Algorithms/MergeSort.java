@@ -40,7 +40,9 @@ public class MergeSort {
         int[] arr = { 9, 4, 7, 6, 3, 1, 5 };
         int[] sortedarray = new int[arr.length];
         mergeSort(arr, 0, arr.length - 1, sortedarray);
-            for (int val : arr)
-                System.out.print(val + " ");
+        for (int val : arr)
+            System.out.print(val + " ");
     }
+
 }
+
