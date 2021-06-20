@@ -104,7 +104,7 @@ public class l001 {
 			return 1;
 
 		int way = numberofDecode(s, idx + 1);
-		return 0;
+		return way;
 	}
 
 	public static void main(String[] args) {

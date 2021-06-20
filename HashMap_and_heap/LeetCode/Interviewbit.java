@@ -130,7 +130,8 @@ public class Interviewbit {
             }
 
         }
-        return new ArrayList(set);
+        // return new ArrayList(set);
+        return Collections.emptyList();
     }
 
     // Optimiztion T.C (nlog(n) + n^3)

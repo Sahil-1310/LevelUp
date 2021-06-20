@@ -102,10 +102,10 @@ public class Cls_1 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 1, 1, 1, 2, 2, 3 };
+        // int[] nums = { 1, 1, 1, 2, 2, 3 };
         int[] Arr1 = {7, 4, 8, 0, 1};
         int[] Arr2 = {9, 7, 2, 3, 6};
-        int k = 2;
+        // int k = 2;
         // System.out.println(findKthLargest2(nums, k));
         // display(topKFrequent(nums, k));
         System.out.println(maximizeArray(Arr1, Arr2, 5));

@@ -1,4 +1,108 @@
-10
-1
-8
-9
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ B D
+ D
+ D
+ B D
+ D
+ D
+ B D
+ D
+ D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ B D
+ D
+ D
+ B D
+ D
+ D
+ B D
+ D
+ D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ B D
+ D
+ D
+ B D
+ D
+ D
+ B D
+ D
+ D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ A B C D
+ A B D
+ A B C D
+ A B D
+ A D
+ A D
+ B D
+ D
+ D
+ B D
+ D
+ D
+ B D
+ D
+ D
