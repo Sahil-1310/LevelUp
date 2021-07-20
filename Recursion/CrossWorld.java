@@ -37,7 +37,7 @@ public class CrossWorld {
             return 1;
         }
 
-        String str = words[idx];
+        // String str = words[idx];
         int count = 0;
 
         return count;
@@ -47,4 +47,3 @@ public class CrossWorld {
 
     }
 }
-c

@@ -26,7 +26,7 @@ public class l001 {
     public static void constructGraph() {
         for (int i = 0; i < N; i++) {
             graph[i] = new ArrayList<>();
-        }  
+        }
 
         addEdge(0, 1, 10);
         addEdge(0, 3, 10);
@@ -136,7 +136,7 @@ public class l001 {
 
 
 
-    //class 27 feb 2021 
+    //class 27 feb 2021
     public static void main(String []args)
     {
         constructGraph();

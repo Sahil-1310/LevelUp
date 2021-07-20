@@ -60,20 +60,23 @@ public class Basic {
   }
 
   // Top to Bottom Approch (When my is make at Top)
-  public static ArrayList<String> subSeq(String str, int idx) {
-    if (str.length() == idx) {
-      ArrayList<String> base = new ArrayList<>();
-      base.add("");
-      return base;
-    }
+  // public static ArrayList<String> subSeq(String str, String ans) {
+  //   if (str.length() == idx) {
+  //     ArrayList<String> base = new ArrayList<>();
+  //     return base;
+  //   }
 
-    ArrayList<String> res = subSeq(str, idx + 1);
-    ArrayList<String> ts = new ArrayList<>(res);
-    for (String st : res) {
-      ts.add(st + str.charAt(idx));
-    }
-    return ts;
-  }
+  //   for(int i = 0; i < str.length(); i++) {
+  //     char c = str.charAt(i);
+  //     str = str.substring(i + 1);
+  //   }
+  //   ArrayList<String> res = subSeq(str, idx + 1);
+  //   ArrayList<String> ts = new ArrayList<>(res);
+  //   for (String st : res) {
+  //     ts.add(st + str.charAt(idx));
+  //   }
+  //   return ts;
+  // }
 
   public static int subseq(String str, int idx, ArrayList<String> res, String st) {
     if (str.length() == idx) {
@@ -108,7 +111,7 @@ public class Basic {
     // System.out.println(firstIndex(arr, 0, 9));
     // System.out.println(lastIndex(arr, 0, 9));
     ArrayList<String> res = new ArrayList<>();
-    System.out.println(subseq("yvTA", 0, res, "") + " " + res);
-    printSS("yvTA", " ",0);
+    System.out.println(subseq("abc", 0, res, "") + " " + res);
+    // printSS("yvTA", " ",0);
   }
 }
