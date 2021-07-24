@@ -96,7 +96,7 @@ public class Implementation {
         }
 
         ArrayList<Integer> left = TreeNodeToRootPath(root.left, val);
-        if (left.size() != 0) {
+        if (left.size() != 0) { 
             left.add(root.val);
             return left;
         }
